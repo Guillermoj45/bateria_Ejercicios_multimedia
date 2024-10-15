@@ -1,8 +1,11 @@
 package com.example.ejercicio2
 
 import android.annotation.SuppressLint
+import android.app.PendingIntent
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -25,11 +28,19 @@ class Ejercicio2 : AppCompatActivity() {
         }
 
         val botonVentana = findViewById<Button>(R.id.buttCambiarVentanaEjercicio2)
+        val handler = Handler(Looper.getMainLooper())
+
         botonVentana.setOnClickListener {
-            sleep(2000)
-            Intent(this, VentanaNuevaEjercicio2::class.java).also {
-                startActivity(it)
-            }
+            handler.postDelayed({
+                val intent = Intent(this, VentanaNuevaEjercicio2::class.java)
+                startActivity(intent)
+            }, 10000)
+            PendingIntent.getActivity(
+                this,
+                0,
+                Intent(this, VentanaNuevaEjercicio2::class.java),
+                PendingIntent.FLAG_UPDATE_CURRENT
+            ).send()
         }
     }
 }
