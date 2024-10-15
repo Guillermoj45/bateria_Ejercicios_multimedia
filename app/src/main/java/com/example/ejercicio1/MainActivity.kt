@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ejercicio2.Ejercicio2
+import com.example.ejercicio3.Ejercicio3
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -36,6 +37,11 @@ class MainActivity : AppCompatActivity() {
 
         ejercicio2.setOnClickListener {
             val intent = Intent(this, Ejercicio2::class.java)
+            startActivity(intent)
+        }
+
+        ejercicio3.setOnClickListener {
+            val intent = Intent(this, Ejercicio3::class.java)
             startActivity(intent)
         }
 

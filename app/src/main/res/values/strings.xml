@@ -3,11 +3,15 @@
     <string name="botonURL">Comprobar URL</string>
     <string name="botonEjercico1">Ejercicio 1</string>
     <string name="botonEjercico2">Ejercicio 2</string>
-    <string name="ejercicio2_boton"></string>
+    <string name="ejercicio2_boton">Ir a nueva ventana</string>
     <string name="botonEjercico3">Ejercicio 3</string>
     <string name="botonEjercico4">Ejercicio 4</string>
     <string name="botonEjercico5">Ejercicio 5</string>
     <string name="botonEjercico6">Ejercicio 6</string>
     <string name="ButtonURL">Comprobar URL</string>
     <string name="ventana_nueva">Ventana nueva</string>
+    <string name="PrimerBotonEjercicio3">Bandera El Salvador</string>
+    <string name="segundoBotonEjercicio3">Bandera Andalucía</string>
+    <string name="tercerBotonEjercicio3">Bandera Canada rara</string>
+    <string name="cuartoBotonEjercicio3">Bandera de Canada y El Salvador</string>
 </resources>
