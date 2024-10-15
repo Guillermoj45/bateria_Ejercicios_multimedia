@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ejercicio 1</string>
+    <string name="botonURL">Comprobar URL</string>
+    <string name="botonEjercico1">Ejercicio 1</string>
+    <string name="botonEjercico2">Ejercicio 2</string>
+    <string name="ejercicio2_boton"></string>
+    <string name="botonEjercico3">Ejercicio 3</string>
+    <string name="botonEjercico4">Ejercicio 4</string>
+    <string name="botonEjercico5">Ejercicio 5</string>
+    <string name="botonEjercico6">Ejercicio 6</string>
+    <string name="ButtonURL">Comprobar URL</string>
+    <string name="ventana_nueva">Ventana nueva</string>
+</resources>
