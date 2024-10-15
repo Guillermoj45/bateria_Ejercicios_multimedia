@@ -34,13 +34,15 @@ class Ejercicio2 : AppCompatActivity() {
             handler.postDelayed({
                 val intent = Intent(this, VentanaNuevaEjercicio2::class.java)
                 startActivity(intent)
+                PendingIntent.getActivity(
+                    this,
+                    0,
+                    intent,
+                    PendingIntent.FLAG_UPDATE_CURRENT
+                ).send()
+
             }, 10000)
-            PendingIntent.getActivity(
-                this,
-                0,
-                Intent(this, VentanaNuevaEjercicio2::class.java),
-                PendingIntent.FLAG_UPDATE_CURRENT
-            ).send()
+
         }
     }
 }
