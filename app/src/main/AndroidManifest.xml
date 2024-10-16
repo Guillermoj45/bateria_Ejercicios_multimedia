@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Ejercicio1"
         tools:targetApi="31">
         <activity
+            android:name="com.example.ejercicio3.TercerLayout"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ejercicio3.CuartoLayout"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ejercicio3.SegundoLayout"
+            android:exported="false" />
+        <activity
             android:name="com.example.ejercicio3.PrimerLayout"
             android:exported="false" />
         <activity

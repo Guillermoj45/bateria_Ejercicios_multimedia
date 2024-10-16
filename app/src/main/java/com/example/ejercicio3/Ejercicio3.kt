@@ -32,5 +32,20 @@ class Ejercicio3 : AppCompatActivity() {
             val intent = Intent(this, PrimerLayout::class.java)
             startActivity(intent)
         }
+
+        buttSegundo.setOnClickListener {
+            val intent = Intent(this, SegundoLayout::class.java)
+            startActivity(intent)
+        }
+
+        buttTercer.setOnClickListener {
+            val intent = Intent(this, TercerLayout::class.java)
+            startActivity(intent)
+        }
+
+        buttCuarto.setOnClickListener {
+            val intent = Intent(this, CuartoLayout::class.java)
+            startActivity(intent)
+        }
     }
 }
