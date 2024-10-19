@@ -5,4 +5,12 @@
     <color name="azul">#0000F8</color>
     <color name="verde">#00FF00</color>
     <color name="rojo">#FF0000</color>
+    <color name="verdecino">#2E9587</color>
+    <color name="verdecino_claro">#4BAE4F</color>
+    <color name="verde_claro">#86BD47</color>
+    <color name="morado">#6639B6</color>
+    <color name="azul_oscuro">#3E50B4</color>
+    <color name="azulado">#3088DC</color>
+    <color name="rojo_claro">#F24236</color>
+    <color name="rosa">#E59D86</color>
 </resources>
