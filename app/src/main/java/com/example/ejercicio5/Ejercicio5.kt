@@ -43,6 +43,10 @@ class Ejercicio5 : AppCompatActivity() {
         }
     }
 
+    /**
+     * Función que se ejecuta al pulsar un botón
+     * @param butt Botón pulsado
+     */
     @SuppressLint("SetTextI18n")
     fun pulsado(butt: Button){
         butt.text.toString()
@@ -75,6 +79,11 @@ class Ejercicio5 : AppCompatActivity() {
 
         }
     }
+
+    /**
+     * Función que realiza la cuenta
+     */
+    @SuppressLint("SetTextI18n")
     fun cuentas(){
         if (operacion.isBlank()){
             texto!!.text = "No se a podido realizar la cuenta"
