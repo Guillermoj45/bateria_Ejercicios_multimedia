@@ -41,20 +41,6 @@ class Ejercicio5 : AppCompatActivity() {
         for (columna in columnas){
             columna.forEachIndexed{index,e -> e.setOnClickListener{pulsado(e as Button)}}
         }
-
-        // for (columna in columnas){
-        //     for (numerox in 1..3){
-        //         val boton = Button(this)
-        //         boton.text = num.toString()
-        //         boton.setOnClickListener {
-        //             boton.text.toString()
-        //             texto.text = boton.text
-        //         }
-        //         columna.addView(boton)
-        //         num++
-        //     }
-        // }
-
     }
 
     @SuppressLint("SetTextI18n")
