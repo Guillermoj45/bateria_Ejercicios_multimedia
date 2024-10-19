@@ -5,24 +5,28 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ejercicio3.PrimerLayout">
+    tools:context="com.example.ejercicio3.PrimerLayout"
+    android:background="@color/white">
 
 
     <LinearLayout
-        android:layout_width="122dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:background="@color/azul"/>
 
     <LinearLayout
-        android:layout_width="166dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         tools:ignore="UselessLeaf" />
 
 
     <LinearLayout
-        android:layout_width="124dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@color/azul"
         android:orientation="horizontal" />
