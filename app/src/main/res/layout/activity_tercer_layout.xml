@@ -21,9 +21,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             tools:ignore="NestedWeights"
-            android:background="
-
-"/>
+            android:background="@color/azul"/>
 
         <LinearLayout
             android:layout_weight="1"
