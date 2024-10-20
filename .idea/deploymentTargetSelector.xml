@@ -4,11 +4,11 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-10-19T20:36:10.577557Z">
+        <DropdownSelection timestamp="2024-10-20T11:38:12.287463300Z">
           <Target type="DEFAULT_BOOT">
-            <template>
-              <DeviceId pluginId="FirebaseDirectAccess" type="TEMPLATE" identifier="model_id=komodo/34" />
-            </template>
+            <handle>
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=KVOROZZTXKONGQNB" />
+            </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />

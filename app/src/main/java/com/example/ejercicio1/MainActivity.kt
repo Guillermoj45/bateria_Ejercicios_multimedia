@@ -12,6 +12,7 @@ import com.example.ejercicio2.Ejercicio2
 import com.example.ejercicio3.Ejercicio3
 import com.example.ejercicio4.Ejercicio4
 import com.example.ejercicio5.Ejercicio5
+import com.example.ejercicio6.Ejercicio6
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -56,6 +57,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Ejercicio5::class.java)
             startActivity(intent)
 
+        }
+
+        ejercicio6.setOnClickListener {
+            val intent = Intent(this, Ejercicio6::class.java)
+            startActivity(intent)
         }
     }
 }
