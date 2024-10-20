@@ -14,4 +14,10 @@
     <string name="segundoBotonEjercicio3">Bandera Andalucía</string>
     <string name="tercerBotonEjercicio3">Bandera Canada rara</string>
     <string name="cuartoBotonEjercicio3">Bandera de Canada y El Salvador</string>
+    <string name="descripcionPerfil">Hola soy un hamster, si quieres jugar conmigo aqui estoy para decirte que no :D</string>
+    <string name="amigosEnComunPerfil">14 amigos en comun</string>
+    <string name="BotonEdicionPerfil">Editar perfil</string>
+    <string name="seguidoresPerfil">14 seguidores</string>
+    <string name="seguidosPerfil">20 seguidos</string>
+    <string name="nombrePerfil">Terroncito98</string>
 </resources>
