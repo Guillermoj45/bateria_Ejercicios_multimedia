@@ -52,14 +52,16 @@ class Ejercicio5 : AppCompatActivity() {
         butt.text.toString()
         when (butt.text.toString()){
             "+", "-", "*", "/" -> {
-                if (!operacion.isEmpty()){
+                if (operacion.isNotEmpty() and numeroAntiguo.isNotEmpty() and numeroNuevo.isNotEmpty()){
                     cuentas()
                 }
                 operacion = butt.text.toString()
                 texto!!.text = numeroAntiguo + operacion
             }
             "=" -> {
-                cuentas()
+                if (operacion.isNotEmpty() and numeroAntiguo.isNotEmpty() and numeroNuevo.isNotEmpty()) {
+                    cuentas()
+                }
             }
             "C" -> {
                 operacion = ""
